@@ -1,3 +1,19 @@
-#wrapper{background: grey;}
-#sidebar{background: blue;}
-#content{background: yellow;}
+#wrapper {
+	/* background: blue;
+	display: flex; */
+}
+#sidebar {
+	background: darkgrey;
+	height: 200px;
+	width: 150px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#content {
+	background: green;
+	margin-left: 20px;
+	height: 200px;
+	width: 450px;
+	top: 0;
+}

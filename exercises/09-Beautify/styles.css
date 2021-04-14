@@ -1,12 +1,20 @@
-#div1 {
-	background-color: red;
-	width: 150px;
-	float: left;
-	height: 100px;
-	padding: 100px;
-	text-align: center;
-	border-radius: 50px;
+.Parent {
+	background: none;
+	display: flex;
+	flex-wrap: wrap;
 }
+
+#div1 {
+	background-color: yellow;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
+
 #div2 {
 	background-color: blue;
 	height: 100px;
@@ -18,7 +26,27 @@
 	border-radius: 25px;
 }
 #div3 {
-	background-color: yellow;
+	background-color: red;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
+#div4 {
+	background-color: purple;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
+#div5 {
+	background-color: green;
 	height: 100px;
 	width: 150px;
 	padding: 25px;
